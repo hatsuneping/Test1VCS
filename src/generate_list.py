@@ -6,17 +6,17 @@ def generate_list():
     """
     print a generate list
     """
-    def printIt():
-        print(generate_list() ) 
+def printIt():
+    print(generate_list() ) 
         
-    def main ():
-        printIt()
-        
+def main ():
+    printIt()
+       
     """
     If this script file is called, it will run main() directly
     """
     
-    if __name__ == '__main__':
-        print("Test printIt() : ")
-        main()
+if __name__ == '__main__':
+    print("Test printIt() : ")
+    main()
         
